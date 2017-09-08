@@ -37,6 +37,7 @@ orocos_typekit(rtt_pcl-typekit
   src/typekit.cpp
   src/point_xyz.cpp
   src/point_xyzrgb.cpp
+  src/point_xyzrgbnormal.cpp
 )
 target_link_libraries(rtt_pcl-typekit ${PCL_LIBRARIES})
 
@@ -55,4 +56,3 @@ orocos_install_headers(
 orocos_generate_package(
   DEPENDS pcl_common-${PCL_VERSION_MAJOR}.${PCL_VERSION_MINOR}
 )
-

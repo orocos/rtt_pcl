@@ -20,7 +20,8 @@
 
 #define RTT_PCL_POINT_TYPES \
   (PointXYZ) \
-  (PointXYZRGB)
+  (PointXYZRGB) \
+  (PointXYZRGBNormal)
 
 #define _RTT_PCL_EXTERN_TEMPLATE_DECLARATION(r, data, PointT) \
   extern template class RTT::internal::DataSource< pcl::PointCloud<pcl::PointT> >; \
